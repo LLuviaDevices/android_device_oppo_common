@@ -37,10 +37,10 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.liquid.AppHelper;
-import com.android.internal.util.liquid.ActionConstants;
-import com.android.internal.util.liquid.DeviceUtils;
-import com.android.internal.util.liquid.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.lluvia.AppHelper;
+import com.android.internal.util.lluvia.ActionConstants;
+import com.android.internal.util.lluvia.DeviceUtils;
+import com.android.internal.util.lluvia.DeviceUtils.FilteredDeviceFeaturesArray;
 
 import com.slim.device.KernelControl;
 import com.slim.device.R;
