@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 SlimRoms Project
+ * Copyright (C) 2018 The LLuvia Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,21 +14,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.slim.device;
+package com.lluvia.device;
 
-import android.app.Activity;
-import android.content.BroadcastReceiver;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
-import android.preference.PreferenceManager;
+import com.android.internal.app.Activity;
+import com.android.internal.content.BroadcastReceiver;
+import com.android.internal.content.ComponentName;
+import com.android.internal.content.Context;
+import com.android.internal.content.Intent;
+import com.android.internal.content.SharedPreferences;
+import com.android.internal.content.pm.PackageManager;
+import com.android.internal.preference.PreferenceManager;
 
-import com.slim.device.KernelControl;
-import com.slim.device.settings.ScreenOffGesture;
-import com.slim.device.settings.SliderSettings;
-import com.slim.device.util.FileUtils;
+import com.lluvia.device.KernelControl;
+import com.lluvia.device.settings.ScreenOffGesture;
+import com.lluvia.device.settings.SliderSettings;
+import com.lluvia.device.util.FileUtils;
 
 import java.io.File;
 

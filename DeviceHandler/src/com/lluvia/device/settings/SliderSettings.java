@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.lluvia.device.settings;
 
-import android.os.Bundle;
-import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceActivity;
-import android.preference.SwitchPreference;
+import com.android.internal.os.Bundle;
+import com.android.internal.preference.ListPreference;
+import com.android.internal.preference.Preference;
+import com.android.internal.preference.Preference.OnPreferenceChangeListener;
+import com.android.internal.preference.PreferenceActivity;
+import com.android.internal.preference.SwitchPreference;
 
-import com.slim.device.KernelControl;
-import com.slim.device.R;
-import com.slim.device.util.FileUtils;
+import com.lluvia.device.KernelControl;
+import com.lluvia.device.R;
+import com.lluvia.device.util.FileUtils;
 
 public class SliderSettings extends PreferenceActivity
         implements OnPreferenceChangeListener {

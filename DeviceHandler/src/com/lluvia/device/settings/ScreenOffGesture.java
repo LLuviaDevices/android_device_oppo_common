@@ -14,37 +14,37 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.lluvia.device.settings;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Dialog;
-import android.app.DialogFragment;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.res.Resources;
-import android.content.SharedPreferences;
-import android.graphics.Bitmap;
-import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.Preference.OnPreferenceClickListener;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceScreen;
-import android.preference.SwitchPreference;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
+import com.android.internal.app.Activity;
+import com.android.internal.app.AlertDialog;
+import com.android.internal.app.Dialog;
+import com.android.internal.app.DialogFragment;
+import com.android.internal.content.DialogInterface;
+import com.android.internal.content.Intent;
+import com.android.internal.content.pm.PackageManager;
+import com.android.internal.content.res.Resources;
+import com.android.internal.content.SharedPreferences;
+import com.android.internal.graphics.Bitmap;
+import com.android.internal.os.Bundle;
+import com.android.internal.preference.Preference;
+import com.android.internal.preference.Preference.OnPreferenceChangeListener;
+import com.android.internal.preference.Preference.OnPreferenceClickListener;
+import com.android.internal.preference.PreferenceFragment;
+import com.android.internal.preference.PreferenceScreen;
+import com.android.internal.preference.SwitchPreference;
+import com.android.internal.view.Menu;
+import com.android.internal.view.MenuInflater;
+import com.android.internal.view.MenuItem;
 
 import com.android.internal.util.lluvia.AppHelper;
 import com.android.internal.util.lluvia.ActionConstants;
 import com.android.internal.util.lluvia.DeviceUtils;
 import com.android.internal.util.lluvia.DeviceUtils.FilteredDeviceFeaturesArray;
 
-import com.slim.device.KernelControl;
-import com.slim.device.R;
-import com.slim.device.util.ShortcutPickerHelper;
+import com.lluvia.device.KernelControl;
+import com.lluvia.device.R;
+import com.lluvia.device.util.ShortcutPickerHelper;
 
 public class ScreenOffGesture extends PreferenceFragment implements
         OnPreferenceChangeListener, OnPreferenceClickListener,

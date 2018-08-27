@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.lluvia.device.settings;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.MenuItem;
+import com.android.internal.app.Activity;
+import com.android.internal.os.Bundle;
+import com.android.internal.view.MenuItem;
 
 public class ScreenOffGestureSettings extends Activity {
 

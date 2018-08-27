@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2014 Slimroms
+ * Copyright (C) 2018 The LLuvia Open Source Prpject
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,37 +14,37 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.slim.device;
+package com.lluvia.device;
 
-import android.app.Activity;
-import android.app.NotificationManager;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.SharedPreferences;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
-import android.media.AudioManager;
-import android.os.Handler;
-import android.os.Message;
-import android.os.PowerManager;
-import android.os.PowerManager.WakeLock;
-import android.os.SystemProperties;
-import android.os.Vibrator;
-import android.provider.Settings;
-import android.util.Log;
-import android.view.KeyEvent;
+import com.android.internal.app.Activity;
+import com.android.internal.app.NotificationManager;
+import com.android.internal.content.Context;
+import com.android.internal.content.Intent;
+import com.android.internal.content.pm.PackageManager.NameNotFoundException;
+import com.android.internal.content.SharedPreferences;
+import com.android.internal.hardware.Sensor;
+import com.android.internal.hardware.SensorEvent;
+import com.android.internal.hardware.SensorEventListener;
+import com.android.internal.hardware.SensorManager;
+import com.android.internal.media.AudioManager;
+import com.android.internal.os.Handler;
+import com.android.internal.os.Message;
+import com.android.internal.os.PowerManager;
+import com.android.internal.os.PowerManager.WakeLock;
+import com.android.internal.os.SystemProperties;
+import com.android.internal.os.Vibrator;
+import com.android.internal.provider.Settings;
+import com.android.internal.util.Log;
+import com.android.internal.view.KeyEvent;
 
-import android.service.notification.ZenModeConfig;
+import com.android.internal.service.notification.ZenModeConfig;
 
-import com.slim.device.settings.ScreenOffGesture;
+import com.lluvia.device.settings.ScreenOffGesture;
 
-import com.android.internal.os.DeviceKeyHandler;
-import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.lluvia.ActionConstants;
-import com.android.internal.util.lluvia.Action;
+import com.com.android.internal.internal.os.DeviceKeyHandler;
+import com.com.android.internal.internal.util.ArrayUtils;
+import com.com.android.internal.internal.util.lluvia.ActionConstants;
+import com.com.android.internal.internal.util.lluvia.Action;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -112,7 +113,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
         try {
             mGestureContext = mContext.createPackageContext(
-                    "com.slim.device", Context.CONTEXT_IGNORE_SECURITY);
+                    "com.lluvia.device", Context.CONTEXT_IGNORE_SECURITY);
         } catch (NameNotFoundException e) {
         }
     }

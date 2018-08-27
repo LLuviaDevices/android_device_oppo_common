@@ -1,5 +1,5 @@
--keep public class com.slim.device.KeyHandler
+-keep public class com.lluvia.device.KeyHandler
 
--keepclassmembers public class com.slim.device.KeyHandler {
+-keepclassmembers public class com.lluvia.device.KeyHandler {
     *;
 }

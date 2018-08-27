@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.slim.device.util;
+package com.lluvia.device.util;
 
-import android.util.Log;
+import com.android.internal.util.Log;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;

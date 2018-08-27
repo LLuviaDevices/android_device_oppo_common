@@ -14,21 +14,21 @@
  * limitations under the License.
  */
 
-package com.slim.device.util;
+package com.lluvia.device.util;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.content.Intent;
-import android.content.Intent.ShortcutIconResource;
-import android.content.pm.PackageManager;
-import android.content.res.Resources;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.Bundle;
-import android.os.Parcelable;
-import android.util.Log;
+import com.android.internal.app.Activity;
+import com.android.internal.app.Fragment;
+import com.android.internal.content.Intent;
+import com.android.internal.content.Intent.ShortcutIconResource;
+import com.android.internal.content.pm.PackageManager;
+import com.android.internal.content.res.Resources;
+import com.android.internal.graphics.Bitmap;
+import com.android.internal.graphics.BitmapFactory;
+import com.android.internal.os.Bundle;
+import com.android.internal.os.Parcelable;
+import com.android.internal.util.Log;
 
-import com.slim.device.R;
+import com.lluvia.device.R;
 
 import com.android.internal.util.lluvia.AppHelper;
 

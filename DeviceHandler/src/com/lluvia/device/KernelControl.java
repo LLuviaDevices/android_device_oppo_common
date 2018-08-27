@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.slim.device;
+package com.lluvia.device;
 
-import com.slim.device.util.FileUtils;
+import com.lluvia.device.util.FileUtils;
 
 import java.io.File;
 
